@@ -1,0 +1,61 @@
+body {
+    font-family: 'Manrope', sans-serif;
+    font-size: 1em;
+    background-color: #1F2039;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+em {
+    color: #a5b4fc;
+    font-size: normal;
+}
+
+h1 {
+    font-size: 3.5em;
+    color: #a5b4fc;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    color: #F9F8FF;
+}
+
+p,
+li {
+    color: #F9F8FF;
+    font-size: 1.1em;
+}
+
+/* mettre un virgule avant retour à la ligne pour prendre plusieurs class */
+.entete,
+.pied_de_page {
+    background-color: white;
+
+}
+
+.cta {
+    background: linear-gradient(#8e86b5, #acaeed);
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+}
+
+.petite_bordure {
+    border-right: 1px solid #A5B4FC;
+    border-bottom: 1px solid #A5B4FC;
+}
+
+.souligne:hover {
+    text-decoration: underline;
+}
+
+.cta:hover {
+    background: linear-gradient(#696484, #8788ba)
+}
+
+.icon:hover {
+    opacity: 0.5;
+}
